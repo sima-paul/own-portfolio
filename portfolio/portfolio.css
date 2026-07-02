@@ -123,6 +123,14 @@ nav h3 a{
     animation: typing 2.6s steps(17) forwards,
     blink 0.7s step-end infinite;
 }
+@media (max-width:500px){
+    .sima{
+        animation: none;
+        width: auto;
+        border-right: none;
+        white-space: normal;
+    }
+}
 @keyframes typing{
     from{
         width: 0;
